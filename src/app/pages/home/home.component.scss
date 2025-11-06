@@ -1,0 +1,15 @@
+.home-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.body-content {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  flex: 1;
+}

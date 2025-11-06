@@ -1,0 +1,15 @@
+:host {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.visual {
+  height: 95%;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: contain;
+  padding-right: 20px;
+}
