@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global reset to avoid default body margins creating gaps around full-width elements */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* Optional: ensure app root also fills height */
+app-root, #root, body > :first-child {
+	min-height: 100%;
+}
+
+/* You can add other global styles or imports below */
