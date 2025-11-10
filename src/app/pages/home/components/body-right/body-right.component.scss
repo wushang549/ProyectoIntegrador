@@ -65,7 +65,7 @@
 }
 
 .answer{
-    margin-top: -10px;
+    margin-top: -25px;
     font-size: 17px;
 }
 .data{
@@ -151,6 +151,9 @@ img.restaurant-img {
     object-fit: cover;
     border-radius: 8px;
     margin-left: 20px;
+    position: relative;
+    top: 30px;
+    left: 50px;
 }
 
 /* Card2 */
@@ -237,4 +240,27 @@ img.restaurant-img {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: end;
+    width: 85%;
+    margin-top: 15px;
+    align-content: end;
+}
+.chart-img {
+    width: 30%;
+    max-width: 100%;
+    height: auto;     /* mantiene la relación ancho/alto */
+    display: block;
+    object-fit: contain; /* opcional: cover/contain según quieras recorte o ajuste */
+}
+.holland-img {
+    width: 44%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
 }
